@@ -34,6 +34,10 @@ button {
     border-radius: 50px;
     margin-bottom: 150px;
 }
+button:hover {
+    background-color: #fff;
+    border: 3px solid #626262;
+}
 .box1, .box5 { width: 70%; margin: 0 auto; margin-top: 100px;}
 .box2, .box4 { background-color: #f5f4e4; display: flex; gap: 20px;}
 .txt {width: 40%; padding: 0 80px; font-size: 18px; margin: 10px 0;}
@@ -63,6 +67,10 @@ button {
     justify-content: center;
     align-items: center;
     margin-bottom: 100px;
+}
+.box5 .sns-group a:hover {
+    background-color: #fff;
+    border: 3px solid #626262;
 }
 
 
