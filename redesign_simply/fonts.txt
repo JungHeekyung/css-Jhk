@@ -1,0 +1,30 @@
+Noto Serif Bold
+font-family: "noto-serif", serif;
+font-weight: 700;
+font-style: normal;
+
+Noto Serif Black
+font-family: "noto-serif", serif;
+font-weight: 900;
+font-style: normal;
+
+
+Noto Sans Light
+font-family: "noto-sans", sans-serif;
+font-weight: 300;
+font-style: normal;
+
+Noto Sans Regular
+font-family: "noto-sans", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+Noto Sans Medium
+font-family: "noto-sans", sans-serif;
+font-weight: 500;
+font-style: normal;
+
+Noto Sans Bold
+font-family: "noto-sans", sans-serif;
+font-weight: 700;
+font-style: normal;
