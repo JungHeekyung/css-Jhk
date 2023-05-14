@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="../common/reset.css">
     <title>Try Simply® Juice </title>
-
+    
     <link rel="stylesheet" href="./style.css">
+    <script type="text/javascript" src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=fe3e369f7f1958cad17af8188856fc39"></script>
 </head>
 
 <body>
@@ -25,18 +26,17 @@
     </header>
     <main>
         <div class="video">
-            <iframe src="https://www.youtube.com/embed/gPc7WrA7l_U?controls=0&loop=0&autoplay=1&mute=1" title="simply"
+            <iframe src="https://www.youtube.com/embed/gPc7WrA7l_U?controls=0&loop=1&autoplay=1&mute=1&modestbranding=1" title="simply"
                 class="youtube" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
-            <p>Simply</p>
         </div>
 
         <div class="features-wrapper">
             <section class="features">
                 <h4>HERE, WE GROW</h4>
-                <p>In case you couldn’t tell, we’re pretty into growing.<span>
-                        But this is about so much more than just citrus.<span>
+                <p>We’re pretty into growing. But this is<span>
+                         about so much more than just citrus.<span>
                             Allow us to explain.</p>
             </section>
 
@@ -62,7 +62,7 @@
                 <div class="juice-img">orange juice</div>
                 <div class="logo-txt">
                     <img src="./images/logo_02.png" alt="orange logo">
-                    <p>Finally, some orange juice that didn't fall far from<span>
+                    <p>Finally, some orange juice that didn't fall far from
                             the tree.</p>
                     <a href="#" class="btn1">Read more</a>
                 </div>
@@ -71,7 +71,7 @@
                 <div class="juice-img">lemon juice</div>
                 <div class="logo-txt">
                     <img src="./images/logo_03.png" alt="lemon logo">
-                    <p>Enjoy refreshing, all-natural lemonade with no added<span>
+                    <p>Enjoy refreshing, all-natural lemonade with no added
                             preservatives colors or artificial flavors.</p>
                     <a href="#" class="btn1">Read more</a>
                 </div>
@@ -91,21 +91,18 @@
         <div class="recipes">
             <h1>Simply Recipes</h1>
             <div class="gallery-wrapper">
-                <section class="gallery recipe1">
-                    <div class="abc">1</div>
-                    <!-- <img src="./images/recipes01_chocolate-orange-affogato.jpg" alt="chocolate orange affogato"> -->
+                <section class="gallery">
+                    <div class="recipe1">1</div>
                     <p>Chocolate<br>Orange Affogato</p>
                 </section>
 
-                <section class="gallery recipe2">
-                    <div class="abc2">1</div>
-                    <!-- <img src="./images/recipes02_limoncello.jpg" alt="limoncello"> -->
+                <section class="gallery">
+                    <div class="recipe2">1</div>
                     <p>Lemonade<br>Limoncello Cocktail</p>
                 </section>
 
-                <section class="gallery recipe3">
-                    <div class="abc3">1</div>
-                    <!-- <img src="./images/recipes03_strawberry-ice-pops.jpg" alt="strawberry ice pops"> -->
+                <section class="gallery">
+                    <div class="recipe3">1</div>
                     <p>Lemonade<br>Strawberry Ice Pops</p>
                 </section>
             </div>
@@ -113,99 +110,206 @@
         </div>
 
         <div class="secondary_contents">
-            <img src="" alt=""> <!-- 오렌지농장 이미지 -->
-            <h2>Our Simply Simply Story.</h2>
-            <p>Once upon a time, there was some great-tasting fruit</p>
-            <button class="btn3">What Happens Next?</button>
+            <div class="secondary-bg">
+                <div class="secondary-txtbtn">
+                    <div class="secondary-txt">
+                    <h2>Our Simply Simply Story.</h2>
+                    <p>Once upon a time, there was some great-tasting fruit</p>
+                    </div>
+                    <a href="#" class="btn3">What Happens Next?</a>
+                </div>
+            </div>
 
-            <div class="count">
-                <section class="count1">
+            <div class="count-wrapper">
+                <div class="count">
+                <section>
                     <h1>0.00</h1>
                     <p>Saturated Fat 0 / Trans Fat 0</p>
                 </section>
-                <section class="count2">
+                <section>
                     <h1>36</h1>
                     <p>36 PRODUCTS</p>
                 </section>
-                <section class="count3">
+                <section>
                     <h1>100</h1>
                     <p>100% JUICE PULP FREE</p>
                 </section>
-                <section class="count4">
+                <section>
                     <h1>2001</h1>
                     <p>The company was founded in 2001</p>
                 </section>
             </div>
+            </div>
         </div>
 
-        <div class="puducts"> <!-- 제품 -->
+        <div class="products">
             <h1>Favorite products</h1>
             <ul>
                 <li>
                     <figure>
-                        <img src="" alt=""> <!-- 제품이미지1 -->
+                        <img src="./images/prod01_fruitpunch.png">
                         <figcaption>Fruit Punch</figcaption>
                     </figure>
                 </li>
                 <li>
                     <figure>
-                        <img src="" alt=""> <!-- 제품이미지2 -->
-                        <figcaption>Fruit Punch</figcaption>
+                        <img src="./images/prod02_grapefruit.png">
+                        <figcaption>Grapefruit</figcaption>
                     </figure>
                 </li>
                 <li>
                     <figure>
-                        <img src="" alt=""> <!-- 제품이미지3 -->
-                        <figcaption>Fruit Punch</figcaption>
+                        <img src="./images/prod03_lemonade.png">
+                        <figcaption>Lemonade</figcaption>
                     </figure>
                 </li>
                 <li>
                     <figure>
-                        <img src="" alt=""> <!-- 제품이미지4 -->
-                        <figcaption>Fruit Punch</figcaption>
+                        <img src="./images/prod04_ojlowacid.png">
+                        <figcaption>Low Acid</figcaption>
                     </figure>
                 </li>
                 <li>
                     <figure>
-                        <img src="" alt=""> <!-- 제품이미지5 -->
-                        <figcaption>Fruit Punch</figcaption>
+                        <img src="./images/prod05_ojpulpfree.png">
+                        <figcaption>Pulp Free</figcaption>
                     </figure>
                 </li>
             </ul>
         </div>
+
+    <div class="wave-bg">wave bgpattern</div>
+    
         <div class="signUp">
             <h1>Stay Up On Simply<br>Beverages</h1>
-            <form>
-                <p>Email Address*</p>
-                <input type="text">
-                <p>Date of Birth*</p>
-                <input type="dropdown">
-                <input type="dropdown">
-                <input type="dropdown">
-            </form>
+            <div class="form-wrapper">
+                <form>
+                    <p>Email Address*</p>
+                    <input type="text" class="email">
+                    
+                        <p>Date of Birth*</p>
+                        <div class="drop-wrapper">
+                        <select name="month" id="month" class="month">
+                            <option value="Month">Month</option>
+                            <option value="1">January</option>
+                            <option value="2">february</option>
+                            <option value="3">March</option>
+                            <option value="4">April</option>
+                            <option value="5">May</option>
+                            <option value="6">June</option>
+                            <option value="7">July</option>
+                            <option value="8">August</option>
+                            <option value="9">September</option>
+                            <option value="10">October</option>
+                            <option value="11">November</option>
+                            <option value="12">December</option>
+                        </select>
 
-            <input type="checkbox">
-            <p>I agree to The Coca-Cola® Company's<br>
-                Terms of Use and Privacy Policy*</p>
-            <button class="btn1">Join the List !</button>
+                            <select name="day" id="day" class="day">
+                                <option value="day">Day</option>
+                                <option value="1">01</option>
+                                <option value="2">02</option>
+                                <option value="3">03</option>
+                                <option value="4">04</option>
+                                <option value="5">05</option>
+                                <option value="6">06</option>
+                                <option value="7">07</option>
+                                <option value="8">08</option>
+                                <option value="9">09</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                                <option value="24">24</option>
+                                <option value="25">25</option>
+                                <option value="26">26</option>
+                                <option value="27">27</option>
+                                <option value="28">28</option>
+                                <option value="29">29</option>
+                                <option value="30">30</option>
+                                <option value="31">31</option>
+                            </select>
+                            <select name="year" id="year" class="year">
+                                <option value="year">Year</option>
+                                <option value="2023">2023</option>
+                                <option value="2022">2022</option>
+                                <option value="2021">2021</option>
+                                <option value="2020">2020</option>
+                                <option value="2019">2019</option>
+                                <option value="2018">2018</option>
+                                <option value="2017">2017</option>
+                                <option value="2016">2016</option>
+                                <option value="2015">2015</option>
+                                <option value="2014">2014</option>
+                                <option value="2013">2013</option>
+                                <option value="2012">2012</option>
+                                <option value="2011">2011</option>
+                                <option value="2010">2010</option>
+                                <option value="2009">2009</option>
+                                <option value="2008">2008</option>
+                                <option value="2007">2007</option>
+                                <option value="2006">2006</option>
+                                <option value="2005">2005</option>
+                                <option value="2004">2004</option>
+                                <option value="2003">2003</option>
+                                <option value="2002">2002</option>
+                                <option value="2001">2001</option>
+                                <option value="2000">2000</option>
+                            </select>
+
+                    </div>
+                </form>
+                <div class="check">
+                <div class="check-txt">
+                <input type="checkbox">
+                <p>I agree to The Coca-Cola® Company's<br>
+                    Terms of Use and Privacy Policy*</p>
+                </div>
+                <button class="btn1">Join the List !</button>
+            </div>
+            </div>
         </div>
 
-        <img src="" alt=""> <!--지도-->
+        <div class="location-map" id="map">
+            <img src="./images/map.png" alt="map">
+        </div>
 
         <div class="instagram">
             <h1>@instagram</h1>
             <div class="instagallery">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
+            <div class="frame">
+                <img src="./images/instagram01_tropical-margarita.jpg" alt="ropical-margarita">
+            </div>
+            <div class="frame">
+                <img src="./images/instagram02_pina-colada-tonic-DT.jpg" alt="pina-colada">
+            </div>
+            <div class="frame">
+                <img src="./images/recipes02_limoncello.jpg" alt="limoncello">
+            </div>
+            <div class="frame">
+                <img src="./images/instagram03_grapefruit-paloma.jpg" alt="">
+            </div>
+            <div class="frame">
+                <img src="./images/instagram04_orange-mimosa.jpg" alt="orange-mimosa">
+            </div>
+                <div class="frame">
+                <img src="./images/instagram05_chocolate-orange-affogato.jpg" alt="chocolate-orange-affogato">
             </div>
         </div>
     </main>
     <footer>
-        <img src="" alt=""> <!-- 로고 -->
+        <div class="footer-wrapper">
+            <img src="./images/logo_04.png" alt="logo">
         <section>
             <h5>CONTACT</h5>
             <p>800 871 2653<br>weekdays 9am - 5pm ET</p>
@@ -216,19 +320,24 @@
                 2659 Orange Ave, Apopka, FL 32703 U.S.A</p>
         </section>
         <section>
+            
             <h5>SOCIAL</h5>
-            <div class="icon">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-            </div>
+                <div class="icon">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                </div>
+        </div>
         </section>
         <div class="footer_bottom">
             <p>© 2023 The Coca-Cola Company. All Rights Reserved</p>
         </div>
     </footer>
+
+
+
 </body>
 
 </html>

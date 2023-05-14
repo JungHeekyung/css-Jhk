@@ -1,0 +1,63 @@
+.recipes {
+  width: 80%;
+  margin: 190px auto 256px;
+}
+.recipes h1 {
+  font-family: var(--title-font);
+  font-weight: var(--title-weight);
+  font-size: var(--font-titel-1);
+  color: var(--point-color);
+  text-shadow: -2px 0 #000, 0 2px #000, 2px 0 #000, 0 -2px #000, 5px 5px 0 #000,
+    4px 4px 0 #000, 3px 3px 0 #000, 2px 2px 0 #000, 1px 1px 0 #000;
+  text-align: center;
+  margin-bottom: 125px;
+}
+.recipes .gallery-wrapper {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.recipes .gallery {
+  width: 480px;
+  height: 325px;
+  position: relative;
+  text-indent: -99999px;
+  border: 2px solid #000;
+  box-shadow: 5px 5px 0 #000;
+  transition: 0.3s;
+}
+.recipes .gallery-wrapper .recipe1 {
+  background: url(./images/recipes01_chocolate-orange-affogato.jpg) no-repeat 80% /
+    cover;
+}
+
+.recipes .gallery-wrapper .recipe2 {
+  background: url(images/recipes02_limoncello.jpg) no-repeat 30% 100% / cover;
+
+}
+.recipes .gallery-wrapper .recipe3 {
+  background: url(images/recipes03_strawberry-ice-pops.jpg) no-repeat 50% 0 /
+    cover;
+}
+
+.recipes .gallery p {
+  background-color: var(--point-color);
+  font-size: var(--font-body-2);
+  width: 247px; height: 82px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 25px;
+  padding: 12px;
+  transform: rotate(-15deg);
+  position: absolute;
+  bottom: -15px;  right: 10px;
+}
+
+.recipes .gallery:hover {
+  transform: scale(1.05);
+}
+/* .recipes .gallery-wrapper .recipe1:hover {
+  background: url(images/recipes01_chocolate-orange-affogato.jpg) no-repeat 80% / 200%; 
+} */
+
