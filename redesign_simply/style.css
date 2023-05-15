@@ -192,7 +192,7 @@ main:not({wave}) {
 /**** primary1 ****/
 
 .primary1-wrapper {
-  width: 62.5%;
+  width: 70%;
   height: 1140px;
   min-width: 1000px;
   margin: 50px auto;
@@ -206,11 +206,12 @@ main:not({wave}) {
 }
 .primary1-wrapper .orange .juice-img {
   text-indent: -9999px;
-  width: 1000px;
+  /* width: 1000px; */
+  width: 41.3194vw;
   height: 500px;
   background: url(./images/primary_01.png) no-repeat 80% 50% / 700px;
   position: absolute;
-  left: -370px;
+  left: -70px;
   /* left: -1270px; */
 }
 /* .primary1-wrapper .orange .juice-img {
@@ -223,14 +224,15 @@ main:not({wave}) {
 } */
 
 .primary1-wrapper .orange .logo-txt {
-  width: 600px;
+  width: 480px;
   margin-left: 100px;
   position: absolute;
-  right: -100px;
+  right: 00px;
 }
 .primary1-wrapper .orange .logo-txt img {
   margin-top: 80px;
-  width: 358px;
+  /* width: 358px; */
+  width: 24.6528vw;
 }
 .primary1-wrapper .orange .logo-txt p {
   font-size: var(--font-body-1);
@@ -253,7 +255,8 @@ main:not({wave}) {
 }
 .primary1-wrapper .lemon .logo-txt img {
   margin-top: 80px;
-  width: 358px;
+  /* width: 358px; */
+  width: 24.6528vw;
 }
 .primary1-wrapper .lemon .logo-txt p {
   font-size: var(--font-body-1);
@@ -268,20 +271,23 @@ main:not({wave}) {
   height: 500px;
   background: url(./images/primary_02.png) no-repeat 20% 60% / 700px;
   position: absolute;
-  right: -50px;
+  right: -100px;
   bottom: 0;
 }
 
 /**** primary2 ****/
 
 .primary2-wrapper {
-  background-color: #eee;
   width: 100%;
   margin-top: 300px;
   position: relative;
   overflow-x: hidden;
 }
-
+.img-wrapper {
+  width: 100%;
+  margin-top: 300px;
+  position: relative;
+}
 .primary2-wrapper .wave-bg2 {
   position: relative;
   width: 100%;
@@ -314,6 +320,14 @@ main:not({wave}) {
 }
 
 .lemon-img {
+  width: 467px;
+  height: 303px;
+  position: absolute;
+  z-index: 100;
+  top: -50px;
+  left: 13%;
+}
+.lemon-img2 {
   width: 467px;
   height: 303px;
   position: absolute;
@@ -367,7 +381,7 @@ main:not({wave}) {
 }
 .recipes .gallery-wrapper {
   width: 80%;
-  max-width: 80%;
+  min-width: 75%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -377,8 +391,9 @@ main:not({wave}) {
   position: relative;
 }
 .recipes .gallery-wrapper .recipe1 {
-  height: 325px;
-  width: 480px;
+  width: 25vw;
+  height: 35vh;
+  
   background: url(images/recipes01_chocolate-orange-affogato.jpg) no-repeat 80% /
     cover;
   text-indent: -99999px;
@@ -386,16 +401,18 @@ main:not({wave}) {
   box-shadow: 5px 5px 0 #000;
 }
 .recipes .gallery-wrapper .recipe2 {
-  height: 325px;
-  width: 480px;
+  width: 25vw;
+  height: 35vh;
+  
   background: url(images/recipes02_limoncello.jpg) no-repeat 30% 100% / cover;
   text-indent: -99999px;
   border: 2px solid #000;
   box-shadow: 5px 5px 0 #000;
 }
 .recipes .gallery-wrapper .recipe3 {
-  height: 325px;
-  width: 480px;
+  width: 25vw;
+  height: 35vh;
+  
   background: url(images/recipes03_strawberry-ice-pops.jpg) no-repeat 50% 0 /
     cover;
   text-indent: -99999px;
