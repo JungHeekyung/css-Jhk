@@ -1,0 +1,35 @@
+<html>
+    <body>
+        <!-- 
+            1. 1~4 사이의 숫자를 입력하면 해당 번호 이미지 출력
+            취소 버튼 클릭시 취소했습니다 출력
+            그 외는 해당 번호만 입력해주세요 출력
+         -->
+
+         <script>
+            let num = prompt('숫자를 입력해 주세요');
+
+            switch (num) {
+                case '1':
+                document.body.innerHTML = '<img src="./images/dog1.jpg" art="dogimg1" >';
+                break;
+                case '2':
+                document.body.innerHTML = '<img src="./images/dog2.jpg" art="dogimg2" >';
+                break;
+                case '3':
+                document.body.innerHTML = '<img src="./images/dog3.jpg" art="dogimg3" >';
+                break;
+                case '4':
+                document.body.innerHTML = '<img src="./images/dog4.jpg" art="dogimg4" >';
+                break;
+                default :
+                alert('해당 번호만 입력해 주세요');
+            }
+        
+            
+            
+        
+
+         </script>
+    </body>
+</html>
