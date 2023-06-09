@@ -1,0 +1,17 @@
+<html>
+    <body>
+        <!-- 두 개의 주사위를 던졌을 때 두 수의 값이 6인 경우만 출력 -->
+        <script>
+            
+            for (i = 1; i <= 6; i++) {
+                for (num = 1; num <= 6; num++) {
+                    while (i + num == 6) {
+                        document.write (`<p>${i},${num}</p>`);
+                        num++
+                    }
+                }
+            }
+
+        </script>
+    </body>
+</html>

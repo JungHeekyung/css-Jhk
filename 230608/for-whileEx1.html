@@ -1,0 +1,23 @@
+<html>
+    <body>
+        <!-- 
+            입력 받은 구구단 출력
+            2~9단 외의 숫자 입력시 에러 메시지 출력
+         -->
+        <script>
+        const num = prompt('숫자를 입력해 주세요')
+    
+        
+        if (num >= 2 && num <= 9) {
+        let i = 1;
+        while (i <= 9) {
+        document.write (`<p>${num}*${i}=${num*i}</p>`);
+        i++;
+    } 
+} else {
+    document.write (`<p>2~9사이의 숫자만 입력해 주세요</p>`);
+  }
+
+        </script>
+    </body>
+</html>
